@@ -1,0 +1,5 @@
+---
+  - name: Run new file
+    netology.newfile.new_file:
+      path: "{{ my_path }}"
+      content: "{{ my_content }}"

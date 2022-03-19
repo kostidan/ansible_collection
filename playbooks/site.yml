@@ -1,0 +1,8 @@
+---
+- name: Assert create new file module
+  hosts: localhost
+  tasks:
+    - name: New file
+      netology.newfile.new_file:
+        path: ./another_file.txt
+        content: "Another content"
